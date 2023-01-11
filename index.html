@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Robot Generator</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body id="body">
+    <div class="container">
+      <h1
+        class="animate__animated animate__lightSpeedInLeft animate__slow animate__repeat-2"
+      >
+        "Take Me To Your Leader"
+      </h1>
+      <p>Generate random or user defined robots on the fly.</p>
+
+      <img
+        id="robotImage"
+        src="https://www.robohash.org/random/?size=500x500"
+      />
+      <div class="button-container">
+        <button id="randomButton">Random Generated Robot</button>
+        <div class="user-container">
+          <button id="userButton">User Generated Robot</button>
+          <input type="text" id="user-input" placeholder="enter random text" />
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
